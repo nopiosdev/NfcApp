@@ -21,22 +21,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "permissions": [
-        "android.permission.NFC"
-      ],
-      "package": "com.syed_muhammad_ali.NfcApp"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "70b14735-f846-4637-adc6-8a404836ce7e"
-      }
-    },
-    "runtimeVersion": {
-      "policy": "sdkVersion"
     }
   }
 }
