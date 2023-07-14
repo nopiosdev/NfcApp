@@ -3,6 +3,7 @@
     "name": "NfcApp",
     "slug": "NfcApp",
     "version": "1.0.0",
+    "jsEngine": "hermes",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -31,12 +32,15 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "react-native-nfc-manager"
+     [ "react-native-nfc-manager"]
     ],
     "extra": {
       "eas": {
         "projectId": "70b14735-f846-4637-adc6-8a404836ce7e"
       }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
