@@ -21,10 +21,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.syed_muhammad_ali.NfcApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins":[
+      ["react-native-nfc-manager"]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cc335d92-41ff-49c2-9bfc-de2421208657"
+      }
     }
   }
 }
