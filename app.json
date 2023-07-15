@@ -22,18 +22,29 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.syed_muhammad_ali.NfcApp"
+      "package": "com.syed_muhammad_ali.NfcApp",
+      "permissions": [
+        "android.permission.NFC"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins":[
-      ["react-native-nfc-manager"]
+    "plugins": [
+      [
+        "react-native-nfc-manager"
+      ]
     ],
     "extra": {
       "eas": {
         "projectId": "cc335d92-41ff-49c2-9bfc-de2421208657"
       }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/cc335d92-41ff-49c2-9bfc-de2421208657"
     }
   }
 }
